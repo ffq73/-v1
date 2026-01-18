@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import docx
 from pptx import Presentation
@@ -173,4 +172,5 @@ if base_file and student_file:
                 st.markdown(ai_result)
 
     with st.expander("🔍 原始差异列表"):
+
         st.write(ghost_content)
